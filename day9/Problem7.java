@@ -1,3 +1,4 @@
+package Day9;
 import java.util.Scanner;
 public class Problem7 {
     int max(int a, int b) {

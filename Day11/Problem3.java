@@ -1,14 +1,13 @@
-package Day9;
 import java.util.Scanner;
 public class Problem3 {
-    int add(int a, int b) {
-        return a + b;
+    Problem3(int length, int breadth) {
+        System.out.println("Area = " + (length * breadth));
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Problem3 obj = new Problem3();
-        int a = sc.nextInt();
+        int l = sc.nextInt();
         int b = sc.nextInt();
-        System.out.println(obj.add(a, b));
+        new Problem3(l,b);
+        sc.close();
     }
 }

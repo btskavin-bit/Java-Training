@@ -1,3 +1,4 @@
+package Day9;
 import java.util.Scanner;
 public class Problem8 {
     int area(int l, int b) {
